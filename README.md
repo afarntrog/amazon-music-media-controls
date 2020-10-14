@@ -1,3 +1,4 @@
-# lazy-speller
+# Amazon music media controller
 
-This is a simple Chrome extension to auto except Google search suggested spelling corrections. It accepts the correction and then searches with the new spelling
+This is a simple Chrome extension that gives you 
+media controls for Amazon Music Web Player from any other tab. Simply click Alt+Left arrow key or Right arrow to go to a prev or next song, respectively. This works even when you are inside another tab.
