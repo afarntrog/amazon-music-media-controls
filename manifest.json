@@ -11,13 +11,13 @@
     "commands": {
       "prev-song" : {
           "suggested_key": {
-               "default": "Alt + Left" 
+               "default": "Ctrl + Left" 
           },
           "description": "prev song"
       },
       "next-song": {
           "suggested_key": {
-              "default": "Alt + Right"
+              "default": "Ctrl + Right"
           },
           "description": "next song"
       }
