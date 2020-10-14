@@ -1,0 +1,41 @@
+{
+    "manifest_version": 2,
+    "name": "amazon music",
+    "version": "1.0",
+    "description": "Amazon music media controls!",
+
+    "permissions": [
+      "tabs", "<all_urls>"
+    ],
+
+
+
+    "commands": {
+      "prev-song" : {
+          "suggested_key": {
+               "default": "Alt + Left" 
+          },
+          "description": "prev song"
+      },
+      "next-song": {
+          "suggested_key": {
+              "default": "Alt + Right"
+          },
+          "description": "next song"
+      }
+  },
+
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+
+      "icons": {
+        "16": "images/icons8-spellcheck-16.png",
+        "32": "images/icons8-spellcheck-32.png",
+        "48": "images/icons8-spellcheck-48.png",
+        "128": "images/icons8-spellcheck-100.png"
+      }
+  }
